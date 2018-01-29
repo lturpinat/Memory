@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" prefHeight="115.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+       <FlowPane alignment="CENTER" style="-fx-background-color: #d6d6d6;" BorderPane.alignment="CENTER">
+           <Label text="LET'S GO !">
+               <font>
+                   <Font name="System Bold" size="22.0" />
+               </font>
+           </Label>
+       </FlowPane>
+   </top>
+   <bottom>
+       <FlowPane alignment="CENTER" hgap="20.0" style="-fx-background-color: #d6d6d6;" BorderPane.alignment="CENTER">
+           <FlowPane alignment="CENTER" hgap="10.0">
+               <Label text="Timer : ">
+                   <font>
+                       <Font name="System Bold Italic" size="20.0" />
+                   </font>
+               </Label>
+               <Label fx:id="timeLabel">
+                   <font>
+                       <Font name="System Italic" size="20.0" />
+                   </font>
+               </Label>
+           </FlowPane>
+           <FlowPane alignment="CENTER" hgap="10.0">
+               <Label fx:id="errorLabel">
+                   <font>
+                       <Font name="System Bold Italic" size="20.0" />
+                   </font>
+               </Label>
+           </FlowPane>
+       </FlowPane>
+   </bottom>
+</BorderPane>

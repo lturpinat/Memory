@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="107.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Label fx:id="errorLabel" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <FlowPane alignment="BOTTOM_CENTER" hgap="20.0" prefHeight="6.0" prefWidth="411.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="closeButton" mnemonicParsing="false" text="Close" onAction="#handleCloseButtonAction" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+      </FlowPane>
+   </bottom>
+</BorderPane>
