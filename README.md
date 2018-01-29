@@ -6,6 +6,6 @@ He also can choose on which visual theme he will play.
 
 ## Developers
 
-+ Valentin Reversat
-+ Louis Turpinat
++ [Valentin Reversat](https://github.com/vareversat)
++ [Louis Turpinat](https://github.com/lturpinat)
 
